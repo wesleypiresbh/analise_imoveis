@@ -8,7 +8,7 @@ def get_data(path):
     data = pd.read_csv(path)
     return data
 
-path = '/home/wesley/Dropbox/DataScience/SejaDS/kc_house_data.csv'
+path = '/kc_house_data.csv'
 data = get_data(path)
 
 # Data Frames
